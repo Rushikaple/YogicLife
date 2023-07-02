@@ -13,3 +13,12 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+// Value changing for single product
+
+function test(){
+    var x= document.getElementById("optionList");
+    var value = x.value;
+    var disp = document.getElementById("result");
+    disp.innerHTML=value;
+    }
