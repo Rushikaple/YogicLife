@@ -178,6 +178,7 @@ body{
 
 .title-text{
     text-align: center;
+    
    
 }
 #hero .title-text p{
@@ -208,6 +209,7 @@ body{
 .title-text h1{
     font-size: 50px;
     color: #f7b900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  } 
 
  #feature { 
@@ -267,6 +269,11 @@ body{
 }
 #product1 h2{
     color: #f7b900;
+    font-size: 50px;
+    transition: 0.5s ease;
+}
+#product1 h2:hover{
+    text-shadow: 5px 5px 8px #121210 ;
 }
 
 #product1 .pro-container{
@@ -384,7 +391,8 @@ color: red;
 #service{
     width: 100%;
     padding: 70px 0;
-    background: #e3e6f3;
+    /* background: #e3e6f3; */
+    background: #dcdcdc;
 }
 #service .title-text p{
     font-size: 14px;
